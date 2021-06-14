@@ -7,8 +7,8 @@ public interface IntSink extends java.rmi.Remote {
      *
      * @param localParam the single parameter to ignore
      */
-	
-	//public int timer(int i) throws java.rmi.RemoteException; 
-	
+
+    // public int timer(int i) throws java.rmi.RemoteException;
+
     public void ignore(int localParam) throws java.rmi.RemoteException;
 }

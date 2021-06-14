@@ -6,15 +6,12 @@ public class IntSinkimpl extends java.rmi.server.UnicastRemoteObject implements 
 		super();
 	}
 
-	
-//	public int timer(int i) throws java.rmi.RemoteException {
-//		return i;
-//	}
+	// public int timer(int i) throws java.rmi.RemoteException {
+	// return i;
+	// }
 
-	
 	public void ignore(int localParam) throws RemoteException {
-		
-		
+
 	}
 
 }
