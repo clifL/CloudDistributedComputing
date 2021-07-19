@@ -21,7 +21,7 @@ public class crawlerserver {
 
     try {
       crawler c = new crawlerservant();
-      System.setProperty("java.rmi.server.hostname", "192.168.10.107");
+      System.setProperty("java.rmi.server.hostname", "localhost");
       Registry reg = LocateRegistry.createRegistry(port);
       // Naming.rebind("rmi://192.168.10.107:" + port + "/CalculatorService", c);
       reg.rebind("CrawlerService", c);
